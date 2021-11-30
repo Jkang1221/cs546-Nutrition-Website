@@ -12,7 +12,6 @@ function isCheckString(string) {
         }
     }
 }
-
 function isCheckTime(time) {
     if (!time) throw "You must provide a time for recipe";
     if (typeof time !== 'number') throw "error time";
